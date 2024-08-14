@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "spell-check": "cspell --config cspell.config.js '**/*.{js,ts,jsx,tsx,json,md,html,css,scss}'"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.18.4",
+    "@urql/core": "^5.0.6",
+    "eslint-config-prettier": "^9.1.0",
+    "graphql": "^16.9.0",
+    "nuxt": "^3.12.4",
+    "pinia": "^2.2.1",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "vue": "latest"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.2",
+    "cspell": "^8.13.3",
+    "typescript": "^5.5.4"
+  }
+}
